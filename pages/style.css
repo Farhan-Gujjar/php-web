@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url(../pics/gym-hero.jpg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* display: flex;
+      justify-content: center;
+  align-items: center;
+  box-sizing: border-box;  */
+
+
+/*    
+  background-image: url(../pics/gym-hero.jpg.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box; */
+
+  
+  
+}
+
+h1{color: white;}
+.navbar{
+    background-color: rgba(0, 0,0 ,0.8);
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+}
+.navli{
+    list-style-type: none;
+    padding: 10px;
+    display: flex;
+
+    
+}
+.ankr{
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 30px ;
+    margin-right: 10px;
+    font-size: 30px;
+
+}
+.anker1{
+    text-decoration-color:aquamarine ;
+}
+span:hover{
+color: red;
+transition: 1s;
+
+
+}
+h1{
+    
+    padding: 10px;   
+}
+.heading{
+    text-align: center;
+    margin-top: 15%;
+    font-size: 60px;
+}
+.para1{
+    text-align: center;
+    font-size: 30px;
+    color: azure;
+}
+.btn{
+    padding: 15px;
+color:   #FFFFFF;
+    font-size: 20px;
+    margin-top: 5%;
+    background-color:  #000000;
+    border-radius: 20px;
+    
+}
+.btn:hover{
+    background-color: rgba(0, 0,0 ,0.4);
+    border: 2px solid  aquamarine;
+    color: aquamarine;
+
+}
+span{
+    color: aquamarine;
+}
+.ankr:hover{
+    
+    border-bottom: 2px solid aquamarine;
+    color: red;
+}
+/* styling for the schedule page */
+
+.schead{
+    text-align: center;
+    font-size: 500%;
+
+}
+#tbl, tr, th, td{
+    border: 2px solid aquamarine;
+    border-collapse: collapse;
+}
+/* schedule page editing for body */
+.container2{
+    display: flex;
+    /* border: 2px solid aquamarine; */
+    /* width: 100%; */
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    /* background-color: rgba(0, 0, 0, 0.3); */
+  overflow: hidden;
+  padding: 60px;
+
+}
+    
+.c{
+    border: 2px solid aquamarine;
+    padding: 10px;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 10px;
+
+}
+.c li{
+    list-style-type: none;
+
+}
+.h1{
+    color: aquamarine;
+
+}
+
+/* form */
+.form{
+    display: flex;
+    flex-direction: column;
+     /* height: 600px;  */
+    width: 400px;
+    border: 1px solid black;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0,0.5 );
+    box-shadow: inset -5px -5px rgba(0, 0,0, 0.5);
+    border-radius: 25px;
+    margin-bottom: 10px
+    
+
+}
+
+ .form h1{
+    color: white;
+    font-size: 2rem;
+    border-bottom:4px solid rgba(255, 255,255, 0.5);
+    margin: 20px;
+
+ }
+ .box{
+    padding: 10px;
+    margin: 15px;
+
+    width: 80%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgba(0, 0,0, 0.5);
+    box-shadow: inset -3px -3px rgba(0, 0,0,0.5);
+    color: white;
+    font-size: 1rem;
+     
+ }
+
+.submit{
+     padding: 10px 20px;
+     margin-top: 50px;
+     width: 50%; 
+     /* background-color: rgba(red, green, blue, alpha); */
+    /* box-shadow: inset -3px -3px rgba(red, green, blue, alpha); */
+    color: white;
+    border-radius: 20px;
+    outline: none;
+    font-size: 1rem;
+}
+
+.submit:hover{
+    transition: 1s;
+    /* transform: scale(1); */
+    /* translate: 5px ; */
+    cursor: pointer;
+    background-color: aquamarine;
+    /* background-color: rgba(255,255,255, 0.1); */
+    color: rgba(224, 17, 17, 0.974);
+    transform: matrix3d(
+  1, 0, 0, 0,
+  0, 1, 0, 0,
+  0, 0, 1, 0.001, /* slight perspective */
+  20, 0, 10, 1    /* moves element 50px right and down */
+);
+
+}
+/* @media (max-width: 600px) {
+  .form {
+    margin-top: 30px;
+    padding: 15px;
+  }
+} */
+
+
